@@ -1,0 +1,277 @@
+<!-- ================================ -->
+<!-- == Nama Mahasiswa : Harianto  == -->
+<!-- == NIM : 200401010151         == -->
+<!-- == Kelas : IT-02              == -->
+<!-- == Tugas 2 Pemrograman Web 1  == -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- == Nama Mahasiswa : Ahmad Fatoni  == -->
+<!-- == NIM : 200401010148         == -->
+<!-- == Kelas : IT-02              == -->
+<!-- == Tugas 2 Pemrograman Web 1  == -->
+<!-- ================================ -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sekolah Coding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="aos/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="nav">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" /></a>
+      </div>
+
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#jalur-belajar">JALUR</a></li>
+        <li><a href="#keunggulan">KEUNGGULAN</a></li>
+        <li><a href="#teknologi">TEKNOLOGI</a></li>
+        <li><a href="#tim">TIM</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="text-box">
+        <h1 data-aos="fade-down">Bangun Karir Sebagai Developer Profesional</h1>
+        <p data-aos="fade-up">Kembangkan karirmu sebagai developer profesional dengan keahlian coding yang dibutuhkan di dunia industri melalui kelas online CodIndo</p>
+        <a href="#form" class="form-btn">Daftar Sekarang</a>
+      </div>
+    </section>
+
+    <!-- JALUR BELAJAR -->
+    <section class="jalur-belajar" id="jalur-belajar">
+      <h1 data-aos="fade-up">Jalur Belajar</h1>
+      <p data-aos="fade-up" data-aos-delay="100">Tentukan sendiri jalur belajar sesuai keinginanmu.</p>
+      <br />
+
+      <div class="row" data-aos="fade-up" data-aos-delay="200">
+        <div class="jalur-belajar-col">
+          <img class="img-jalur-belajar" src="images/android-dev.jpg" alt="" />
+          <h3>Android Developer</h3>
+          <p class="p-jalur-belajar">Kurikulum ini didesain untuk mempersiapkan siswa menjadi Android Developer berstandar global Google.</p>
+          <a href="" class="start-btn">Mulai Belajar</a>
+        </div>
+
+        <div class="jalur-belajar-col">
+          <img class="img-jalur-belajar" src="images/backend.jpg" alt="" />
+          <h3>Back-End Developer</h3>
+          <p class="p-jalur-belajar">Kurikulum ini didesain untuk mempersiapkan siswa menjadi Back-End Developer sesuai kebutuhan industri.</p>
+          <a href="" class="start-btn">Mulai Belajar</a>
+        </div>
+
+        <div class="jalur-belajar-col">
+          <img class="img-jalur-belajar" src="images/frontend.jpg" alt="" />
+          <h3>Front-End Developer</h3>
+          <p class="p-jalur-belajar">Kurikulum ini didesain untuk mempersiapkan siswa menjadi Front-End Developer sesuai standar industri.</p>
+          <a href="" class="start-btn">Mulai Belajar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- START KEUNGGULAN -->
+    <section class="keunggulans" id="keunggulan">
+      <div class="keunggulan">
+        <div class="btn-box" data-aos="fade-up">
+          <button id="btn1" onclick="openKurikulum()">Kurikulum</button>
+          <button id="btn2" onclick="openMetode()">Metode</button>
+        </div>
+
+        <div id="content1" class="content">
+          <div class="row">
+            <div class="content-left" data-aos="fade-right">
+              <h4>Kurikulum standar industri global</h4>
+              <p>Kurikulum yang digunakan telah memenuhi standar kebutuhan industri terkini yang disusun oleh tim developer CodIndo bekerja sama dengan perusahaan dan pemilik teknologi dunia.</p>
+            </div>
+            <div class="content-right" data-aos="fade-left">
+              <img src="images/fullstack.jpg" alt="fullstack" />
+            </div>
+          </div>
+        </div>
+
+        <div id="content2" class="content">
+          <div class="row">
+            <div class="content-left">
+              <h4>Metode belajar flexibel sesuai waktu luang</h4>
+              <p>Belajar kapan pun, di mana pun, secara mandiri. Bebas memilih kelas sesuai minat belajar. Akses seumur hidup ke kelas dan forum diskusi setelah lulus.</p>
+            </div>
+            <div class="content-right">
+              <img src="images/pemrograman.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END WHY -->
+
+    <!-- START TEKNOLOGI -->
+    <section class="teknologi" id="teknologi">
+      <h1 data-aos="fade-up">Teknologi Terkini</h1>
+      <p data-aos="fade-up" data-aos-delay="100">Belajar berbagai bahasa pemrograman, framework dan tools terkini</p>
+      <br />
+
+      <div class="row" data-aos="fade-up" data-aos-delay="200">
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/android-logo.jpg" alt="" />
+          <p>Android</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/php-logo.jpg" alt="" />
+          <p>PHP</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/ci-logo.jpg" alt="" />
+          <p>Codeigniter</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/laravel-logo.jpg" alt="" />
+          <p>Laravel</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/react-logo.jpg" alt="" />
+          <p>React JS</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/js-logo.jpg" alt="" />
+          <p>Javascript</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/jquery-logo.jpg" alt="" />
+          <p>JQuery</p>
+        </div>
+        <div class="teknologi-col">
+          <img class="teknologi-col" src="images/msql-logo.jpg" alt="" />
+          <p>MySQL</p>
+        </div>
+      </div>
+    </section>
+    <!-- END TEKNOLOGI -->
+
+    <!-- START VIDEO -->
+    <section class="video">
+      <div>
+        <div id="content1" class="content">
+          <div class="row">
+            <div class="content-left" data-aos="fade-right">
+              <h4>Dilengkapi video pembelajaran</h4>
+              <p style="text-align: justify">Materi pembelajaran tidak hanya berupa module. Agar lebih mudah memahami materi, CodIndo juga menyertakan video pembelajaran yang menarik seperti video berikut ini.</p>
+            </div>
+            <div class="content-right" data-aos="fade-left">
+              <img class="btn-play" src="images/thumbnail.jpg" alt="thumbnail" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-container">
+        <span class="close">&#10006;</span>
+        <iframe
+          width="727"
+          height="409"
+          src="https://www.youtube.com/embed/glPXH9jxn_U"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- END VIDEO -->
+
+    <!-- START TEAM -->
+    <section class="tim" id="tim">
+      <div class="tim-kami">
+        <h1 data-aos="fade-up">CodIndo Tim</h1>
+        <br />
+        <div class="row" data-aos="fade-down" data-aos-delay="200">
+          <div class="tim-col">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <img class="img-tim" src="images/harianto.png" alt="" />
+                </td>
+                <td>
+                  <span class="name">HARIANTO</span>
+                  <br />
+                  <span>200401010151</span>
+                  <br /><br />
+                  <div class="social-media">
+                    <a href=""><i style="color: black" class="fab fa-facebook"></i></a>
+                    <a href=""><i style="color: black" class="fab fa-youtube"></i></a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="tim-col">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <img class="img-tim" src="images/fatoni.jpg" alt="" />
+                </td>
+                <td>
+                  <span class="name">AHMAD FATONI</span>
+                  <br />
+                  <span>200401010148</span>
+                  <br /><br />
+                  <div class="social-media">
+                    <a href=""><i style="color: black" class="fab fa-facebook"></i></a>
+                    <a href=""><i style="color: black" class="fab fa-youtube"></i></a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TEAM -->
+
+    <!-- START FORM -->
+    <section class="form" id="form">
+      <h1>Form</h1>
+      <form>
+        <input type="text" class="input-box" placeholder="Nama Lengkap" />
+        <input type="text" class="input-box" placeholder="Alamat" />
+        <input type="email" class="input-box" placeholder="Email" />
+        <input type="password" class="input-box" placeholder="Password" />
+        <input type="password" class="input-box" placeholder="Konfirmasi Password" />
+        <br />
+        <button class="form-btn">Sign Up</button>
+      </form>
+    </section>
+    <!-- END FORM -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-bottom">
+        <p>copyright &copy; 2021 CodIndo Team</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script type="text/javascript" src="aos/aos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
