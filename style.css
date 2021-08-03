@@ -417,7 +417,7 @@ header.bg-black {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   z-index: 99999;
   background-color: rgba(0, 0, 0, 0.2);
@@ -440,7 +440,7 @@ header.bg-black {
 
 .video-container video {
   width: 90%;
-  max-width: 80%;
+  max-width: 800px;
   transform: scale(0);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -501,7 +501,7 @@ header.bg-black {
 footer {
   background: rgb(255, 255, 255);
   height: auto;
-  width: 100vw;
+  width: 100%;
   color: white;
 }
 
@@ -546,12 +546,8 @@ footer {
     font-size: 35px;
   }
 
-  header {
-    width: 100%;
-  }
-
   .tim-kami {
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -574,7 +570,7 @@ footer {
     position: absolute;
     left: 0;
     top: 0;
-    width: 60%;
+    width: 100%;
     height: 100vh;
     flex-direction: column;
     align-items: center;
@@ -584,6 +580,10 @@ footer {
     transform: translateX(100%);
     transition: all 0.7s;
     opacity: 0;
+  }
+
+  header {
+    width: 100%;
   }
 
   header ul.slide {
