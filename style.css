@@ -440,7 +440,7 @@ header.bg-black {
 
 .video-container video {
   width: 90%;
-  max-width: 800px;
+  max-width: 80%;
   transform: scale(0);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -546,8 +546,12 @@ footer {
     font-size: 35px;
   }
 
-  .tim-kami {
+  header {
     width: 100%;
+  }
+
+  .tim-kami {
+    width: 80%;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
